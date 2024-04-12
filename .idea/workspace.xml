@@ -5,30 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a58101e-f6c3-4f89-a510-deab9c1989d1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/build.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/app/TuTubo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/users/BasicUser.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/users/ContentCreator.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/users/PremiumUser.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/users/User.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/videos/Video.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/app/TuTuboTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/users/BasicUserTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/users/ContentCreatorTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/users/PremiumUserTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/videos/VideoTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,9 +31,9 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2eywWTwDtbhg1uHGVzIK6s808Bv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -70,6 +48,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/dacev/OneDrive/Documentos/Universidad/9 semestre/Patos/auxiliar4-2024-1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -79,8 +58,21 @@
   }
 }]]></component>
   <component name="RunManager" selected="MUnit.TuTuboTest">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="auxiliar4-2024-1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="auxiliar4-2024-1" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TuTuboTest" type="MUnitRunConfiguration" factoryName="MUnit" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
-      <module name="auxiliar-4" />
+      <module name="auxiliar4-2024-1" />
       <option name="VMParameters" value="" />
       <option name="allowRunningInParallel" value="false" />
       <option name="alternativeJrePath" />
@@ -106,7 +98,7 @@
       </method>
     </configuration>
     <configuration name="VideoTest" type="MUnitRunConfiguration" factoryName="MUnit" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
-      <module name="auxiliar-4" />
+      <module name="auxiliar4-2024-1" />
       <option name="VMParameters" value="" />
       <option name="allowRunningInParallel" value="false" />
       <option name="alternativeJrePath" />
@@ -154,7 +146,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712890158100</updated>
-      <workItem from="1712890159211" duration="7575000" />
+      <workItem from="1712890159211" duration="9422000" />
+      <workItem from="1712899823557" duration="183000" />
     </task>
     <servers />
   </component>
