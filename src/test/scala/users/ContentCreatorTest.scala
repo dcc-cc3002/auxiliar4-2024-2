@@ -13,9 +13,9 @@ class ContentCreatorTest extends FunSuite {
 
   override def beforeEach(context: BeforeEach): Unit = {
     user = new ContentCreator("username")
-    creator = new ContentCreator
+    creator = new ContentCreator("username")
     video = new Video(creator)
-    subscriber = new BasicUser
+    subscriber = new BasicUser("username")
     app = new ITube
   }
 

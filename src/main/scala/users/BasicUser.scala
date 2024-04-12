@@ -1,5 +1,5 @@
 package users
 
-class BasicUser {
+class BasicUser(username: String) extends AbstractUser(username) {
 
 }

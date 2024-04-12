@@ -13,7 +13,7 @@ class ITubeTest extends FunSuite {
   var app: ITube = _
 
   override def beforeEach(context: BeforeEach): Unit = {
-    user = new ContentCreator
+    user = new ContentCreator("username")
     video = new Video(user)
     app = new ITube
   }
