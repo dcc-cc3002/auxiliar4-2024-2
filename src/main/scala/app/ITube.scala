@@ -8,7 +8,7 @@ import scala.collection.mutable.ArrayBuffer
 /**
  * This class represents a platform to publish videos.
  */
-class TuTubo {
+class ITube {
 
   val users: ArrayBuffer[User] = ArrayBuffer[User]()
   val videos: ArrayBuffer[Video] = ArrayBuffer[Video]()

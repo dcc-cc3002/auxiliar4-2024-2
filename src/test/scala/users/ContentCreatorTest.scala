@@ -1,6 +1,6 @@
 package users
 
-import app.TuTubo
+import app.ITube
 import munit.FunSuite
 import videos.Video
 
@@ -8,7 +8,7 @@ class ContentCreatorTest extends FunSuite {
   var user: ContentCreator = _
   var video: Video = _
   var creator: ContentCreator = _
-  var app: TuTubo = new TuTubo
+  var app: ITube = new ITube
   var subscriber: BasicUser = _
 
   override def beforeEach(context: BeforeEach): Unit = {

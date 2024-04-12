@@ -6,16 +6,16 @@ import videos.Video
 
 import scala.collection.mutable.ArrayBuffer
 
-class TuTuboTest extends FunSuite {
+class ITubeTest extends FunSuite {
 
   var user: ContentCreator = _
   var video: Video = _
-  var app: TuTubo = _
+  var app: ITube = _
 
   override def beforeEach(context: BeforeEach): Unit = {
     user = new ContentCreator
     video = new Video(user)
-    app = new TuTubo
+    app = new ITube
   }
 
   test("TuTubo can add a video.") {
