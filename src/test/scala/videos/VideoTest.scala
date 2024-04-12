@@ -1,13 +1,13 @@
 package videos
 
 import munit.FunSuite
-import users.{ContentCreator, User}
+import users.{ContentCreator, Account}
 
 class VideoTest extends FunSuite{
 
   var video: Video = _
   var creator: ContentCreator = _
-  var user: User = _
+  var user: Account = _
 
   override def beforeEach(context: BeforeEach): Unit = {
     video = new Video(creator)

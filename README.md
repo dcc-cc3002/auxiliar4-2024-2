@@ -22,7 +22,7 @@ def getUsername: String
 
 def writeComment(video: Video, comment: String): Unit
 
-def likeVideo(video: Video): Video
+def likeVideo(video: Video): Unit
 ```
 
 En la plataforma se pueden separar los tipos de cuentas en dos categorias:

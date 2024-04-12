@@ -1,7 +1,7 @@
 package app
 
 import munit.FunSuite
-import users.{ContentCreator, User}
+import users.{ContentCreator, Account}
 import videos.Video
 
 import scala.collection.mutable.ArrayBuffer
