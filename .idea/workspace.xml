@@ -16,6 +16,9 @@
       <change beforePath="$PROJECT_DIR$/src/main/scala/users/User.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/users/User.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/videos/Video.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/videos/Video.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/scala/app/ITubeTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/app/ITubeTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/users/BasicUserTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/users/BasicUserTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/users/ContentCreatorTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/users/ContentCreatorTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/users/PremiumUserTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/users/PremiumUserTest.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/scala/videos/VideoTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/videos/VideoTest.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +56,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "MUnit.TuTuboTest.executor": "Run",
+    "MUnit.UTest in 'scala'.executor": "Run",
     "MUnit.VideoTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -193,7 +197,7 @@
       <updated>1712890158100</updated>
       <workItem from="1712890159211" duration="9422000" />
       <workItem from="1712899823557" duration="183000" />
-      <workItem from="1712900361410" duration="7672000" />
+      <workItem from="1712900361410" duration="8041000" />
     </task>
     <servers />
   </component>
