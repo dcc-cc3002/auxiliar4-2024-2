@@ -1,6 +1,6 @@
 package app
 
-import users.User
+import users.Account
 import videos.Video
 
 import scala.collection.mutable.ArrayBuffer
@@ -10,7 +10,7 @@ import scala.collection.mutable.ArrayBuffer
  */
 class ITube {
 
-  val users: ArrayBuffer[User] = ArrayBuffer[User]()
+  val users: ArrayBuffer[Account] = ArrayBuffer[Account]()
   val videos: ArrayBuffer[Video] = ArrayBuffer[Video]()
 
 
@@ -36,17 +36,17 @@ class ITube {
    *
    * @return the registered users.
    */
-  def getUsers: ArrayBuffer[User] = users
+  def getUsers: ArrayBuffer[Account] = users
 
   /** Registers a new user in the platform.
    *
    * @param user the new user.
    */
-  def addUser(user: User): Unit = users += user
+  def addUser(user: Account): Unit = users += user
 
   /** Deletes a user from the platform.
    *
    * @param user the user being deleted.
    */
-  def deleteUser(user: User): Unit = users -= user
+  def deleteUser(user: Account): Unit = users -= user
 }

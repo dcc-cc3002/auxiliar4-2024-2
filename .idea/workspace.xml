@@ -5,11 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a58101e-f6c3-4f89-a510-deab9c1989d1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/users/AbstractAccount.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/users/AbstractUser.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/users/Account.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/app/TuTubo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/app/ITube.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/app/TuTuboTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/app/ITubeTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/users/ContentCreatorTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/users/ContentCreatorTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/app/ITube.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/app/ITube.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/users/BasicUser.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/users/BasicUser.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/users/ContentCreator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/users/ContentCreator.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/users/PremiumUser.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/users/PremiumUser.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/users/User.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/users/User.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/videos/Video.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/videos/Video.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/app/ITubeTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/app/ITubeTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/videos/VideoTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/videos/VideoTest.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +56,7 @@
     "MUnit.VideoTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "solution",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/dacev/OneDrive/Documentos/Universidad/9 semestre/Patos/auxiliar4-2024-1",
     "node.js.detected.package.eslint": "true",
@@ -60,7 +67,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="MUnit.TuTuboTest">
+  <component name="RunManager" selected="MUnit.UTest in 'scala'">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="auxiliar4-2024-1" />
       <method v="2">
@@ -100,6 +107,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UTest in 'scala'" type="MUnitRunConfiguration" factoryName="MUnit" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="auxiliar4-2024-1" />
+      <option name="VMParameters" value="" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="alternativeJrePath" />
+      <option name="alternativeJrePathEnabled" value="false" />
+      <option name="classpathModifications">
+        <list />
+      </option>
+      <option name="envs">
+        <map />
+      </option>
+      <option name="passParentEnvs" value="true" />
+      <option name="programParameters" value="" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="testKind" value="All in package" />
+      <option name="workingDirectory" value="C:\Users\dacev\OneDrive\Documentos\Universidad\9 semestre\Patos\auxiliar4-2024-1" />
+      <option name="classBuf">
+        <list>
+          <option value="app.ITubeTest" />
+          <option value="videos.VideoTest" />
+          <option value="users.BasicUserTest" />
+          <option value="users.PremiumUserTest" />
+          <option value="users.ContentCreatorTest" />
+        </list>
+      </option>
+      <option name="workingDirectory" value="C:\Users\dacev\OneDrive\Documentos\Universidad\9 semestre\Patos\auxiliar4-2024-1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="VideoTest" type="MUnitRunConfiguration" factoryName="MUnit" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="auxiliar4-2024-1" />
       <option name="VMParameters" value="" />
@@ -128,6 +169,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="MUnit.UTest in 'scala'" />
         <item itemvalue="MUnit.TuTuboTest" />
         <item itemvalue="MUnit.VideoTest" />
       </list>
@@ -151,7 +193,7 @@
       <updated>1712890158100</updated>
       <workItem from="1712890159211" duration="9422000" />
       <workItem from="1712899823557" duration="183000" />
-      <workItem from="1712900361410" duration="4725000" />
+      <workItem from="1712900361410" duration="7672000" />
     </task>
     <servers />
   </component>

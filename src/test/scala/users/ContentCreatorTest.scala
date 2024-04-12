@@ -8,14 +8,15 @@ class ContentCreatorTest extends FunSuite {
   var user: ContentCreator = _
   var video: Video = _
   var creator: ContentCreator = _
-  var app: ITube = new ITube
+  var app: ITube = _
   var subscriber: BasicUser = _
 
   override def beforeEach(context: BeforeEach): Unit = {
     user = new ContentCreator("username")
-    creator = new ContentCreator
+    creator = new ContentCreator("username")
     video = new Video(creator)
-    subscriber = new BasicUser
+    subscriber = new BasicUser("username")
+    app = new ITube
   }
 
   test("A user has a username.") {

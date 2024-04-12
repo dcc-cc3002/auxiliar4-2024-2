@@ -1,6 +1,6 @@
 package videos
 
-import users.{ContentCreator, User}
+import users.{ContentCreator, Account}
 
 import scala.collection.mutable.ArrayBuffer
 
@@ -11,8 +11,8 @@ import scala.collection.mutable.ArrayBuffer
  */
 class Video(creator: ContentCreator) {
 
-  private var likes: Set[User] = Set[User]()
-  private val comments: ArrayBuffer[(User, String)] = new ArrayBuffer[(User, String)]()
+  private var likes: Set[Account] = Set[Account]()
+  private val comments: ArrayBuffer[(Account, String)] = new ArrayBuffer[(Account, String)]()
 
   /** Returns the amount of likes this video has been given.
    *
@@ -24,7 +24,7 @@ class Video(creator: ContentCreator) {
    *
    * @param user the user liking this video.
    */
-  def like(user: User): Unit = likes += user
+  def like(user: Account): Unit = likes += user
 
   /** Returns the list of comments given to this video. The list contains a tuple,
    * where the first parameter is the user who's commenting, and the second
@@ -32,14 +32,14 @@ class Video(creator: ContentCreator) {
    *
    * @return this video's comments.
    */
-  def getComments: ArrayBuffer[(User, String)] = comments
+  def getComments: ArrayBuffer[(Account, String)] = comments
 
   /** Adds a new comment to this video.
    *
    * @param user the user commenting.
    * @param comment the comment given by the user.
    */
-  def addComment(user: User, comment: String): Unit = comments += Tuple2(user, comment)
+  def addComment(user: Account, comment: String): Unit = comments += Tuple2(user, comment)
 
   /** Returns the video's creator.
    *
