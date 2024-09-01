@@ -11,7 +11,7 @@ class PremiumUserTest extends FunSuite {
 
   override def beforeEach(context: BeforeEach): Unit = {
     user = new PremiumUser("username")
-    creator = new ContentCreator
+    creator = new ContentCreator("username")
     video = new Video(creator)
   }
 
